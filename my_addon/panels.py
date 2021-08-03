@@ -1,11 +1,11 @@
-""" Addon panel """
+""" My Addon panels """
 
 from bpy.types import (Panel)
 
 
 class MyAddon_PT_my_panel(Panel):
     # pylint: disable=invalid-name
-    """My Addon panel"""
+    """ My Addon panel"""
     bl_idname = "CREATE_MESH_PT_main"
     bl_label = "Create mesh addon"
     bl_space_type = "VIEW_3D"

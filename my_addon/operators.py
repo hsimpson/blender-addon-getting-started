@@ -1,10 +1,11 @@
-""" Addon Operator """
+""" My Addon operators """
 
-from bpy.types import (Operator)
+from bpy.types import Operator
+
 
 class MyAddon_OT_my_operator(Operator):
     # pylint: disable=invalid-name
-    """My Addon operator"""
+    """ My Addon operator"""
     bl_idname = "myaddon.create"
     bl_label = "Create mesh"
     bl_description = "Create a selected mesh"

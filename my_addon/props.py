@@ -6,7 +6,7 @@ from bpy.types import (PropertyGroup)
 
 class MyAddon_Props(PropertyGroup):
     # pylint: disable=invalid-name
-    """Properties class"""
+    """ Properties class """
     mesh_type: EnumProperty(
         items=(
             ('0', "Cube", ""),
